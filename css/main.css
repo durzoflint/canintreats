@@ -163,6 +163,19 @@ nav.shift ul li a:hover:after {
   width: 35vw;
 }
 
+#whatwedo {
+  padding-top: 120px;
+  height: 100vh;
+}
+
+.whatwedo-about {
+  padding-left: 80px;
+}
+
+.dogs {
+  width: 100%;
+}
+
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 60px;
