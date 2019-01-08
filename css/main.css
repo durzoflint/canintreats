@@ -1,3 +1,17 @@
+body {
+  background-image: url(../img/bgimage.png);
+}
+
+h1, h3 {
+  color: white;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Oswald';
+}
+
 nav {
   padding: 30px 0;
 }
@@ -30,23 +44,26 @@ nav ul {
   list-style: none;
   text-align: center;
 }
+
 nav ul li {
   display: inline-block;
 }
+
 nav ul li a {
-  display: block;
+  font-family: 'Oswald';
   padding: 15px;
-  text-decoration: none;
-  color: #aaa;
-  font-weight: 800;
+  color: black !important;
+  font-weight: 400;
   text-transform: uppercase;
   margin: 0 5px;
 }
+
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
   transition: all .5s;
 }
+
 nav ul li a:hover {
   color: #555;
 }
@@ -55,9 +72,11 @@ nav.shift ul li a {
   position:relative;
   z-index: 1;
 }
+
 nav.shift ul li a:hover {
   color: #91640F;
 }
+
 nav.shift ul li a:after {
   display: block;
   position: absolute;
@@ -75,6 +94,7 @@ nav.shift ul li a:after {
   opacity: 0;
   z-index: -1;
 }
+
 nav.shift ul li a:hover:after {
   opacity: 1;
   visibility: visible;
@@ -86,9 +106,23 @@ nav.shift ul li a:hover:after {
   border: 0;
 }
 
-@media screen and (max-width: 767px) {
-  .navbar-brand img {
-  width: 150px;
-  height: 150px;
+#home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../img/dogs-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .navbar-brand img {
+    width: 150px;
+    height: 150px;
+  }
 }
