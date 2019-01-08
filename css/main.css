@@ -144,10 +144,23 @@ nav.shift ul li a:hover:after {
   padding: 30px 20px 40px 20px;
 }
 
+.media-object {
+  width: 60px;
+}
+
 #about {
   background: white;
   height: 100vh;
   padding-top: 120px;
+}
+
+.item-about {
+  padding-left: 40px
+  padding-right: 40px;
+}
+
+.brand {
+  width: 35vw;
 }
 
 @media screen and (max-width: 767px) {
@@ -164,5 +177,18 @@ nav.shift ul li a:hover:after {
     display: initial;
     align-items: stretch;
     justify-content: flex-start;
+  }
+
+  .brand {
+    height: 20vh;
+    width: auto;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .lead {
+    font-size: 15px;
   }
 }
