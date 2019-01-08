@@ -176,6 +176,32 @@ nav.shift ul li a:hover:after {
   width: 100%;
 }
 
+#products {
+  background: white;
+  padding-top: 120px;
+  height: auto;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.product {
+  padding: 30px 20px 40px 20px;
+  text-align: center;
+}
+
+.product-image {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.product-heading {
+  display: inline-block;
+}
+
+.product-object {
+  height: 150px;
+}
+  
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 60px;
