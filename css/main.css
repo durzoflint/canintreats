@@ -196,10 +196,12 @@ nav.shift ul li a:hover:after {
 
 .product-heading {
   display: inline-block;
+  font-family: 'Oswald';
+  font-size: 24px;
 }
 
 .product-object {
-  height: 150px;
+  height: 250px;
 }
   
 @media screen and (max-width: 767px) {
