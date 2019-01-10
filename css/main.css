@@ -232,7 +232,7 @@ nav.shift ul li a:hover:after {
 .feature {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .feature-text {
@@ -241,6 +241,7 @@ nav.shift ul li a:hover:after {
   border-radius: 5px;
   color: white;
   margin-left: -20px;
+  margin-right: 8px;
   margin-bottom: 0px;
   padding: 6px 6px 6px 20px;
   background-color: rgba(97, 97, 97, 1);
@@ -265,6 +266,41 @@ nav.shift ul li a:hover:after {
 .flavour-text {
   margin-left: 10px;
   padding: 6px 6px 6px 20px;
+}
+
+#contact {
+  height: 100vh;
+  background: #572C01;
+  padding-top: 120px;
+}
+
+.contact-heading {
+  margin-bottom: 120px;
+  font-family: 'Oswald';
+  color: white;
+}
+
+.contactus-text {
+  color: white;
+  font-family: 'Oswald';
+  font-size: 20px;
+}
+
+.contact-title {
+  margin-bottom: 40px;
+  color: white;
+  font-family: 'Oswald';
+  font-size: 20px;
+}
+
+.contact-body {
+  color: white;
+}
+
+.submit {
+  background: #572C01;
+  color: white;
+  float: left;
 }
   
 @media screen and (max-width: 767px) {
