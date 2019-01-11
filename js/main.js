@@ -23,3 +23,6 @@ $(document).ready(function(){
     } // End if 
   });
 })
+
+//Animations on Scroll
+new WOW().init();

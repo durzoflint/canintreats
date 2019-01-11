@@ -207,6 +207,7 @@ nav.shift ul li a:hover:after {
 #whychooseus {
   height: auto;
   padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .whychooseus-heading {
@@ -309,8 +310,8 @@ nav.shift ul li a:hover:after {
   }
 
   .navbar-brand img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   #content {
