@@ -225,6 +225,7 @@ nav.shift ul li a:hover:after {
 }
 
 .feature-img {
+  /*padding: 10px 10px 10px 10px;*/
   border-color: transparent;
   background-color: rgba(97, 97, 97, 1);
   height: 80px;
@@ -234,6 +235,7 @@ nav.shift ul li a:hover:after {
   display: flex;
   align-items: center;
   justify-content: left;
+  margin-bottom: 20px;
 }
 
 .feature-text {
@@ -252,6 +254,7 @@ nav.shift ul li a:hover:after {
   display: flex;
   align-items: center;
   justify-content: left;
+  margin-bottom: 10px;
 }
 
 .flavour-heading {
@@ -259,6 +262,7 @@ nav.shift ul li a:hover:after {
 }
 
 .flavour-img {
+  padding: 10px 10px 10px 10px;
   border-color: #7B3F00;
   background-color: transparent;
   height: 80px;
@@ -285,6 +289,7 @@ nav.shift ul li a:hover:after {
   color: white;
   font-family: 'Oswald';
   font-size: 20px;
+  margin-bottom: 40px;
 }
 
 .contact-title {
@@ -331,5 +336,18 @@ nav.shift ul li a:hover:after {
 
   .lead {
     font-size: 15px;
+  }
+
+  #contact {
+    height: auto;
+    background: #572C01;
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+
+  .contact-heading {
+    margin-bottom: 60px;
+    font-family: 'Oswald';
+    color: white;
   }
 }
