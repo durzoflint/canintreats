@@ -338,6 +338,10 @@ nav.shift ul li a:hover:after {
     font-size: 15px;
   }
 
+  .whatwedo-about {
+    padding-left: 0px;
+  }
+
   #contact {
     height: auto;
     background: #572C01;
