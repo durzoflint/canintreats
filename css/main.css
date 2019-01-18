@@ -229,6 +229,7 @@ nav.shift ul li a:hover:after {
   border-color: transparent;
   background-color: rgba(97, 97, 97, 1);
   height: 80px;
+  width: 80px;
 }
 
 .feature {
