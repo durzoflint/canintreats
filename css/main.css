@@ -111,11 +111,38 @@ nav.shift ul li a:hover:after {
   border: 0;
 }
 
-#landing {
+#home{
+  padding: 0px 0px 0px 0px;
+}
+
+.carousel-one {
+  margin: 0px 0px 0px 0px !important;
+  height: 100vh;
   display: flex;
   align-items: center;
-  height: 100vh;
   background-image: url(../img/dogs-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+
+.carousel-two {
+  margin : 0px 0px 0px 0px !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spoons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel-three {
+  margin : 0px 0px 0px 0px !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/utensils.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
