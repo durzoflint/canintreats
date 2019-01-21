@@ -167,12 +167,9 @@ nav.shift ul li a:hover:after {
 }
 
 .card {
+  height: 180px;
   background: white;
   padding: 30px 20px 40px 20px;
-}
-
-.media-object {
-  width: 60px;
 }
 
 #about {
