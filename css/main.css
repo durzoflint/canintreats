@@ -13,6 +13,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Montserrat';
   font-size: 50px;
   font-weight: bold;
 }
@@ -131,10 +132,10 @@ nav.shift ul li a:hover:after {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spoons.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/baking.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 .carousel-three {
@@ -145,7 +146,7 @@ nav.shift ul li a:hover:after {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/utensils.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 #content {
@@ -291,9 +292,11 @@ nav.shift ul li a:hover:after {
   border-color: #7B3F00;
   background-color: transparent;
   height: 80px;
+  width: 80px;
 }
 
 .flavour-text {
+  width: 100px;
   margin-left: 10px;
   padding: 6px 6px 6px 20px;
 }
