@@ -121,18 +121,18 @@ nav.shift ul li a:hover:after {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(../img/dogs-banner.jpg);
+  background-image: url(../img/slide1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment: fixed;*/
 }
 
 .carousel-two {
-  margin : 0px 0px 0px 0px !important;
+  margin : 80px 0px -80px 0px !important;
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/baking.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/slide2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment: fixed;*/
@@ -143,7 +143,7 @@ nav.shift ul li a:hover:after {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/utensils.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/slide3.png);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment: fixed;*/
