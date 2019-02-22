@@ -116,23 +116,29 @@ nav.shift ul li a:hover:after {
   padding: 0px 0px 0px 0px;
 }
 
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
 .carousel-one {
   margin: 0px 0px 0px 0px !important;
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/slide1.png);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/slide1.png);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment: fixed;*/
 }
 
 .carousel-two {
-  margin : 80px 0px -80px 0px !important;
+  margin : 0px 0px 0px 0px !important;
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/slide2.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/slide5.png);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment: fixed;*/
@@ -143,7 +149,7 @@ nav.shift ul li a:hover:after {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/slide3.jpeg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/slide3.png);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment: fixed;*/
